@@ -11,4 +11,4 @@ Both tracks are unified through a **RAG-grounded local LLM** (**MEDITRON** via *
 <img src="/media/KneeXpert-textlogo.png" width="300" alt="KneeXpert Logo" />
 
 # Project Demo
-<video src="/media/KneeXpert-demo.mp4" width="100%" controls></video>
+[<video src="[/media/KneeXpert-demo.mp4](https://github.com/user-attachments/assets/da4fad0f-867f-45b8-8b34-09eb05704e6f)" width="100%" controls></video>](https://github.com/user-attachments/assets/da4fad0f-867f-45b8-8b34-09eb05704e6f)
