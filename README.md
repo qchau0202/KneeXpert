@@ -8,7 +8,9 @@ This research presents **KneeXpert**, a **dual-modality AI clinical decision sup
 Both tracks are unified through a **RAG-grounded local LLM** (**MEDITRON** via **Ollama**) with a **TruLens safety gate** enforcing a groundedness threshold of **τ = 0.85**, and a **web-based diagnostic portal** that routes all AI outputs as advisory inputs subject to **mandatory physician sign-off** before commitment to the patient record.
 
 ## Project Logo
-<img src="/media/KneeXpert-textlogo.png" width="300" alt="KneeXpert Logo" style="display: block; margin: 0 auto;"/>
+<div style="text-align: center;">
+<img src="/media/KneeXpert-textlogo.png" width="300" alt="KneeXpert Logo"/>
+</div>
 
 # Project Demo
 [<video src="[/media/KneeXpert-demo.mp4](https://github.com/user-attachments/assets/da4fad0f-867f-45b8-8b34-09eb05704e6f)" width="100%" controls></video>](https://github.com/user-attachments/assets/da4fad0f-867f-45b8-8b34-09eb05704e6f)
