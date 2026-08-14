@@ -16,7 +16,7 @@ Both tracks are unified through a **RAG-grounded local LLM** (**MEDITRON** via *
 [<video src="[/public/KneeXpert-demo.mp4](https://github.com/user-attachments/assets/da4fad0f-867f-45b8-8b34-09eb05704e6f)" width="100%" controls></video>](https://github.com/user-attachments/assets/da4fad0f-867f-45b8-8b34-09eb05704e6f)
 
 ## Showcase
-
 Navigate using this [**link**](https://knee-xpert-showcase.vercel.app/) to open the showcase website, or scan the QR code below:
-
-![Showcase QR Code](./public/showcase-qr.png)
+<div style="text-align: center;">
+<img src="/public/showcase-qr.png" width="300" alt="KneeXpert Logo"/>
+</div>
