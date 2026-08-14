@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { QrCode, ChevronLeft, ChevronRight, X } from 'lucide-react';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 // Screenshot imports
 import systemScreenshot1 from './assets/kneexpert-screenshot-1.jpg';
