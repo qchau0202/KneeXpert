@@ -16,6 +16,7 @@ import systemScreenshot8 from './assets/kneexpert-screenshot-8.jpg';
 import systemScreenshot9 from './assets/kneexpert-screenshot-9.jpg';
 import kneexpertGithub from './assets/kneexpert-github.png';
 import ownerPortfolio from './assets/owner-portfolio.png';
+import projectPoster from './assets/kneexpert-poster.png';
 
 // Swiper Styles
 import 'swiper/css';
@@ -29,7 +30,7 @@ const FloatingSidebar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'carousel', 'footer'];
+      const sections = ['hero', 'carousel', 'poster', 'footer'];
       // Check which section is currently in the middle of the viewport
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
@@ -52,6 +53,7 @@ const FloatingSidebar = () => {
   const navItems = [
     { id: 'hero', label: 'Introduction' },
     { id: 'carousel', label: 'System Screenshots' },
+    { id: 'poster', label: 'Project Poster' }, // Added this line
     // { id: 'footer', label: 'Credits' },
   ];
 
@@ -244,15 +246,42 @@ const CarouselSection = () => {
 };
 
 // ==========================================
-// SECTION 3: Footer
+// SECTION 3: Poster
+// ==========================================
+const PosterSection = () => {
+  return (
+    <section id="poster" className="min-h-screen flex flex-col items-center justify-center py-24 px-4 bg-white text-center">
+      <div className="mx-auto">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
+          Project Poster
+        </h1>
+        <p className="text-md md:text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
+          A comprehensive overview of the KneeXpert architecture, methodology, and diagnostic results.
+        </p>
+        
+        {/* Poster Image Container */}
+        <div className="w-full bg-gray-50 rounded-2xl shadow-2xl overflow-hidden border-4 border-gray-100 p-2 md:p-6 flex justify-center items-center">
+          <img 
+            src={projectPoster} 
+            alt="KneeXpert Project Poster" 
+            className="w-full h-auto max-h-[60vh] object-contain rounded-lg"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// ==========================================
+// SECTION 4: Footer
 // ==========================================
 const FooterSection = () => {
   return (
-    <footer id="footer" className="bg-white text-white pt-12 pb-6 px-4">
+    <footer id="footer" className="bg-[#f7f5f2] text-white pt-12 pb-6 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center pb-8 mb-6">
         <div className="mb-6 md:mb-0 text-center md:text-left">
           <div className='flex items-center'>
-            <img src="./KneeXpert-nobg.png" className="h-10"/>
+            <img src="./kneexpert-nobg.png" className="h-10"/>
             <h3 className="text-2xl font-bold text-primary">KneeXpert</h3>
           </div>
           <p className="text-gray-500 text-sm max-w-md pl-2">
@@ -294,6 +323,7 @@ function App() {
       <FloatingSidebar />
       <HeroSection />
       <CarouselSection />
+      <PosterSection />
       <FooterSection />
       <Analytics/>
     </div>

@@ -9,7 +9,7 @@ Both tracks are unified through a **RAG-grounded local LLM** (**MEDITRON** via *
 
 ## Project Logo
 <div style="text-align: center;">
-<img src="/public/kneexpert-textlogo.png" width="300" alt="KneeXpert Logo"/>
+    <img src="/public/kneexpert-textlogo.png" width="300" alt="KneeXpert Logo"/>
 </div>
 
 ## Project Demo
@@ -18,5 +18,5 @@ Both tracks are unified through a **RAG-grounded local LLM** (**MEDITRON** via *
 ## Showcase
 Navigate using this [**link**](https://knee-xpert-showcase.vercel.app/) to open the showcase website, or scan the QR code below:
 <div style="text-align: center;">
-<img src="/public/showcase-qr.png" width="300" alt="KneeXpert Logo"/>
+    <img src="/public/showcase-qr.png" width="300" alt="KneeXpert Showcase QR"/>
 </div>
